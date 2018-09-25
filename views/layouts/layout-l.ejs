@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Sails App</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--
+        Stylesheets and Preprocessors
+        ==============================
+
+        You can always bring in CSS files manually with `<link>` tags, or asynchronously
+        using a solution like AMD (RequireJS).  Or, if you like, you can take advantage
+        of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+        By default, stylesheets from your `assets/styles` folder are included
+        here automatically (between STYLES and STYLES END). Both CSS (.css) and LESS (.less)
+        are supported. In production, your styles will be minified and concatenated into
+        a single file.
+
+        To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Change the order of your CSS files
+            + Import stylesheets from other directories
+            + Use a different or additional preprocessor, like SASS, SCSS or Stylus
+    -->
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/css/font-awesome.css">
+    <link rel="stylesheet" href="/styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/css/ink-flex.css">
+    <link rel="stylesheet" href="/styles/css/ink-flex.min.css">
+    <link rel="stylesheet" href="/styles/css/ink-ie.css">
+    <link rel="stylesheet" href="/styles/css/ink-ie.min.css">
+    <link rel="stylesheet" href="/styles/css/ink-legacy.css">
+    <link rel="stylesheet" href="/styles/css/ink-legacy.min.css">
+    <link rel="stylesheet" href="/styles/css/ink.css">
+    <link rel="stylesheet" href="/styles/css/ink.min.css">
+    <link rel="stylesheet" href="/styles/css/quick-start.css">
+    <link rel="stylesheet" href="/styles/custom.css">
+    <link rel="stylesheet" href="/styles/importer.css">
+    <!--STYLES END-->
+  </head>
+
+
+
+  <body>
+    < background-image: url("/assets/images/bkg.jpg")%- body %>
+
+
+
+    <!--
+        Client-side Templates
+        ========================
+
+        HTML templates are important prerequisites of modern, rich client applications.
+        To work their magic, frameworks like React, Vue.js, Angular, Ember, and Backbone
+        require that you load these templates client-side.
+
+        By default, your Gruntfile is configured to automatically load and precompile
+        client-side JST templates in your `assets/templates` folder, then
+        include them here automatically (between TEMPLATES and TEMPLATES END).
+
+        To customize this behavior to fit your needs, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Import templates from other directories
+            + Use a different view engine (handlebars, dust, pug/jade, etc.)
+            + Internationalize your client-side templates using a server-side
+              stringfile before they're served.
+    -->
+
+    <!--TEMPLATES-->
+    
+    <!--TEMPLATES END-->
+
+
+    <!--
+        Server-side View Locals
+        ========================
+
+        Sometimes, it's convenient to get access to your server-side view locals from
+        client-side JavaScript.  This can improve page load times, remove the need for
+        extra AJAX requests, and make your client-side code easier to understand and
+        to maintain.  Sails provides a simple mechanism for accessing dynamic view
+        locals: the "exposeLocalsToBrowser()" view partial.
+
+        For more information on using this built-in feature, see:
+        https://sailsjs.com/docs/concepts/views/locals#?escaping-untrusted-data-using-exposelocalstobrowser
+
+    -->
+
+
+    <!--
+
+      Client-side Javascript
+      ========================
+
+      You can always bring in JS files manually with `script` tags, or asynchronously
+      on the client using a solution like AMD (RequireJS).  Or, if you like, you can
+      take advantage of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+      By default, files in your `assets/js` folder are included here
+      automatically (between SCRIPTS and SCRIPTS END).  Both JavaScript (.js) and
+      CoffeeScript (.coffee) are supported. In production, your scripts will be minified
+      and concatenated into a single file.
+
+      To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+      For example, here are a few things you could do:
+
+          + Change the order of your scripts
+          + Import scripts from other directories
+          + Use a different preprocessor, like TypeScript
+
+    -->
+
+    <!--SCRIPTS-->
+    <script src="/dependencies/sails.io.js"></script>
+    <script src="/js/ink/autoload.js"></script>
+    <script src="/js/ink/autoload.min.js"></script>
+    <script src="/js/ink/holder.js"></script>
+    <script src="/js/ink/html5shiv-printshiv.js"></script>
+    <script src="/js/ink/html5shiv.js"></script>
+    <script src="/js/ink/ink-all.js"></script>
+    <script src="/js/ink/ink-all.min.js"></script>
+    <script src="/js/ink/ink-ui.js"></script>
+    <script src="/js/ink/ink-ui.min.js"></script>
+    <script src="/js/ink/ink.animate.js"></script>
+    <script src="/js/ink/ink.carousel.js"></script>
+    <script src="/js/ink/ink.close.js"></script>
+    <script src="/js/ink/ink.common.js"></script>
+    <script src="/js/ink/ink.datepicker.js"></script>
+    <script src="/js/ink/ink.dragdrop.js"></script>
+    <script src="/js/ink/ink.draggable.js"></script>
+    <script src="/js/ink/ink.drawer.js"></script>
+    <script src="/js/ink/ink.dropdown.js"></script>
+    <script src="/js/ink/ink.droppable.js"></script>
+    <script src="/js/ink/ink.formvalidator-2.js"></script>
+    <script src="/js/ink/ink.formvalidator.js"></script>
+    <script src="/js/ink/ink.imagequery.js"></script>
+    <script src="/js/ink/ink.js"></script>
+    <script src="/js/ink/ink.lazyload.js"></script>
+    <script src="/js/ink/ink.min.js"></script>
+    <script src="/js/ink/ink.modal.js"></script>
+    <script src="/js/ink/ink.pagination.js"></script>
+    <script src="/js/ink/ink.progressbar.js"></script>
+    <script src="/js/ink/ink.smoothscroller.js"></script>
+    <script src="/js/ink/ink.sortablelist.js"></script>
+    <script src="/js/ink/ink.spy.js"></script>
+    <script src="/js/ink/ink.stacker.js"></script>
+    <script src="/js/ink/ink.sticky.js"></script>
+    <script src="/js/ink/ink.swipe.js"></script>
+    <script src="/js/ink/ink.table.js"></script>
+    <script src="/js/ink/ink.tabs.js"></script>
+    <script src="/js/ink/ink.tagfield.js"></script>
+    <script src="/js/ink/ink.toggle.js"></script>
+    <script src="/js/ink/ink.tooltip.js"></script>
+    <script src="/js/ink/ink.treeview.js"></script>
+    <script src="/js/ink/ink.upload.js"></script>
+    <script src="/js/ink/modernizr-all.js"></script>
+    <script src="/js/ink/modernizr.js"></script>
+    <script src="/js/ink/prettify.js"></script>
+    <!--SCRIPTS END-->
+  </body>
+</html>

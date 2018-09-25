@@ -1,0 +1,57 @@
+#allbody{
+  background: url("/images/bkg.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 50px;
+  background-size: cover;
+
+}
+#divhome{
+  margin-top: 50px;
+  background-color: rgba(130,137,143,0.5);
+}
+#divhome label
+{
+  color: black;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+
+
+#forminputs
+{
+  margin-top: 50px;
+}
+nav{
+  background-color: rgba(130,137,143,0.7);
+height: 5pc;
+}
+li a{
+  text-align: right;
+  margin-left: 10px;
+}
+nav a {
+  text-decoration:  none;
+  text-transform: uppercase;
+  color: #0d0d0d;
+  text-decoration-color: black;
+
+  height: 50px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+nav a:hover
+{
+  text-decoration: none;
+  color: #fff0de;
+  box-sizing: border-box;
+
+}
+h2 {
+  text-align-all: center;
+}
+nav li{
+  padding-top: 20px;
+}

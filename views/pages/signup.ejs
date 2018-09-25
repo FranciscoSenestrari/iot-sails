@@ -1,0 +1,53 @@
+<div class="push-center" >
+  <div id="divhome">
+
+    <fieldset id="fielsethompage">
+      <div class="column-group gutters align-left push-center"  id="contenHompage" >
+        <form action=""  method="post" class="ink-form all-50 small-100 tiny-100 align-center" id="forminputs" >
+          <fieldset>
+            <div class="control-group required column-group gutters">
+              <label for="first-name" class="all-20 align-right">Nombre </label>
+              <div class="control all-50">
+                <input type="text" id="nombre">
+
+              </div>
+            </div>
+
+            <div class="control-group required column-group gutters a">
+              <label for="email" class="all-20 align-right">Email</label>
+              <div class="control all-50">
+                <input type="text" id="email" placeholder="******@****.com" >
+              </div>
+            </div>
+
+            <div class="control-group required column-group gutters" >
+              <label for="pass" class="all-20 align-right">Password: </label>
+              <div class="control all-50" >
+                <input type="password" name="password" id="pass" data-rules="required|min_length[8]" />
+              </div>
+            </div>
+            <div class="control-group required column-group gutters">
+              <label for="confpass" class="all-20 align-right">Confirm Password:</label>
+              <div class="control all-50">
+                <input type="password" name="confpass" id="confpass" data-rules="matches[password]" data-label="password confirmation" />
+              </div>
+            </div>
+
+          </fieldset>
+          <div class="control  gutters push-center tiny-100" >
+            <input type="submit" class="ink-button blue all-20 " value="Crear usuario">
+
+            <a role="button" class="ink-button red all-20" href="/login">Cancelar</a>
+
+          </div>
+
+        </form>
+
+
+      </div>
+    </fieldset>
+  </div>
+
+
+
+</div>
